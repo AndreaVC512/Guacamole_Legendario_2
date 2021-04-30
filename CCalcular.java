@@ -74,13 +74,7 @@ public class CCalcular extends JFrame implements ActionListener{
         ImageIcon divi = new ImageIcon(getClass().getResource("/imagenes/division.png"));
         div.setIcon(new ImageIcon(divi.getImage().getScaledInstance(45,
                 45, Image.SCALE_DEFAULT)));
-        div.addActionListener(this);
-        add(div);
-        salir = new JButton("Salir");
-        salir.setBounds(400, 350, 175, 50);
-        ImageIcon exit = new ImageIcon(getClass().getResource("/imagenes/exit.png"));
-        salir.setIcon(new ImageIcon(exit.getImage().getScaledInstance(45,
-                45, Image.SCALE_DEFAULT)));
+
         salir.addActionListener(this);
         add(salir);
         limpiar = new JButton("Limpiar");
