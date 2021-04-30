@@ -69,11 +69,6 @@ public class CCalcular extends JFrame implements ActionListener{
                 45, Image.SCALE_DEFAULT)));
         mult.addActionListener(this);
         add(mult);
-        div = new JButton("División");
-        div.setBounds(400, 260, 175, 50);
-        ImageIcon divi = new ImageIcon(getClass().getResource("/imagenes/division.png"));
-        div.setIcon(new ImageIcon(divi.getImage().getScaledInstance(45,
-                45, Image.SCALE_DEFAULT)));
 
         salir.addActionListener(this);
         add(salir);
